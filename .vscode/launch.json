@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "configurations": [
+        {
+            "name": "Execucao em DEV",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/app/__main__.py",
+            //"program": "${workspaceFolder}/scheduller.py"
+            "rules" : [
+                {"module":"bot_lib.libs.loguru", "include":false},
+                {"module":"bot_lib.libs.task", "include":false},
+            ],
+            "justMyCode": false
+        }
+    ]
+}
