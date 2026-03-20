@@ -17,3 +17,4 @@ class Sheets(SheetsLib):
         self.ultima_linha = len(df)
         df = df.values.tolist()
         self.setRange(cfg.SheetsConfig.ID,f"Processamento!D2:D{self.ultima_linha}",df,mode="ROWS")
+    

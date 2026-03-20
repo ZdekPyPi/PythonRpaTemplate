@@ -2,6 +2,6 @@
 pandas           == 2.2.1
 nativeUts        == 1.0.2
 openpyxl         == 3.1.5
+botUts           == 1.1.6
 
 #========================= COMPANY LIBS ======================
-bot_lib           == 0.1.0
